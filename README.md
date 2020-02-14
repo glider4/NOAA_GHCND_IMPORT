@@ -72,6 +72,9 @@ in Python.
 If you get an error from Postgres about "could not stat file", download Postgres 10 and load up the database on that
 version instead of Postgres 12.
 
+Proof that this works... over 110 million rows...
+![resultimport](./result.png)
+
 ```SQL
 -- Ingest full data ".dly" files
 -- Create staging table OBS
