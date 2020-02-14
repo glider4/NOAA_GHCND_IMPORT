@@ -6,7 +6,7 @@
 Best course of action: select a few of the `.dly` files, put them into a folder, and test this
 script on that subset before attempting on the entire ~120,000 `.dly` files.
 
-[LINK TO DATA FILES - download "ghcnd_all.tar.gz"](ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily)
+LINK TO DATA FILES - download "ghcnd_all.tar.gz" --> ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily
 
 ### Step 0: Read the doc about data structure, contents, etc.
 Highly recommended, at least skim it.   [CLICK LINK TO SEE .TXT FILE](./NOAA_GHCN_README.txt)
