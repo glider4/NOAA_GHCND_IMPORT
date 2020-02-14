@@ -6,6 +6,9 @@
 Best course of action: select a few of the `.dly` files, put them into a folder, and test this
 script on that subset before attempting on the entire ~120,000 `.dly` files.
 
+### Step 0: Read the doc about data structure, contents, etc.
+Highly recommended, at least skim it.   [CLICK LINK TO SEE .TXT FILE](./NOAA_GHCN_README.txt)
+
 ### Step 1: Imports
 We'll need pandas and glob.
 
