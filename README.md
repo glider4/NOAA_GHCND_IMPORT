@@ -69,7 +69,7 @@ somebody somewhere can use this and save 15 minutes of straight typing.  Note th
 in Python.
 
 #### Note common problem "Could not stat file"
-If you get an error from Postgres about "count not stat file", download Postgres 10 and load up the database on that
+If you get an error from Postgres about "could not stat file", download Postgres 10 and load up the database on that
 version instead of Postgres 12.
 
 ```SQL
