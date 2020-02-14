@@ -68,6 +68,10 @@ Including this here simply because it takes SO long due to each day having it's 
 somebody somewhere can use this and save 15 minutes of straight typing.  Note this is a `.sql` file so cannot be run 
 in Python.
 
+#### Note common problem "Could not stat file"
+If you get an error from Postgres about "count not stat file", download Postgres 10 and load up the database on that
+version instead of Postgres 12.
+
 ```SQL
 -- Ingest full data ".dly" files
 -- Create staging table OBS
