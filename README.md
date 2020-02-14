@@ -17,7 +17,7 @@ import pandas as pd
 import glob
 ```
 
-### Step 2: set path to folder with `.dly` files
+### Step 2: Set path to folder with `.dly` files
 Running the `glob` command here makes a list of all the file names in this folder, which we use later on to concat the
 files together.
 
