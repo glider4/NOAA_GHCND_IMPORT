@@ -63,7 +63,8 @@ for chunk in pd.read_fwf('D:/result.txt',
 ### BONUS Step 5: Import into PostgreSQL database (or similar)
 
 Including this here simply because it takes SO long due to each day having it's own set of 4 columns, so hopefully
-somebody somewhere can use this and save 15 minutes of straight typing.
+somebody somewhere can use this and save 15 minutes of straight typing.  Note this is a `.sql` file so cannot be run 
+in Python.
 
 ```SQL
 -- Ingest full data ".dly" files
@@ -331,5 +332,3 @@ WHERE v30 = -9999;
 UPDATE OBS
 SET v31 = NULL
 WHERE v31 = -9999;
-
-``
