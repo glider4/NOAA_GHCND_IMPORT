@@ -219,5 +219,6 @@ CREATE TABLE OBS (
 
 -- Used cygwin to remove "-9999" values that should be NULL, do this BEFORE COPY below
 -- sed -i -e 's/-9999//g' "ghcnd-all-no9999.csv"
+-- OR, set NULL as -9999 in COPY statement in SQL script
 
 COPY OBS FROM 'D:/ghcnd-all-no9999.csv' (FORMAT CSV, DELIMITER(','));
